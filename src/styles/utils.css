@@ -1,0 +1,22 @@
+/** utils **/
+.titles {
+  color: #ff9d00;
+  position: relative;
+  font-size: 48px;
+  font-family: serif;
+  text-align: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-title {
+  font-size: 26px;
+  background: #859499;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: serif;
+}
