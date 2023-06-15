@@ -4,7 +4,7 @@ import LandingPage from './sections/landingPage';
 import OurApproach from './sections/ourApproach';
 import Services from './sections/services';
 import AboutUs from './sections/aboutUs';
-// import ContactUs from './sections/contactUs';
+import ContactUs from './sections/contactUs';
 // import Pricing from './sections/pricing';
 
 // styles
@@ -48,7 +48,7 @@ function App() {
         <OurApproach sectionRef={setOurApproachSectionRef} />
         <Services sectionRef={setOurServicesSectionRef} />
         <AboutUs sectionRef={setAboutUsSectionRef} />
-        {/* <ContactUs /> */}
+        <ContactUs />
         {/* <Pricing /> */}
       </main>
     </>
