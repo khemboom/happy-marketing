@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneAlt, faLocationPin, faCopyright } from '@fortawesome/free-solid-svg-icons';
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 
 const ContactUs = () => {
   const sendEmail = (e) => {
@@ -41,16 +41,6 @@ const ContactUs = () => {
           </Col>
           <Col>
             <ul className='mt-4'>
-              {/* <li>
-                <FontAwesomeIcon icon={faPhoneAlt} />
-                <span className='ml-2'>CALL US</span>
-                <p>(+1) 541-754-3010</p>
-              </li> */}
-              {/* <li>
-                <FontAwesomeIcon icon={faLocationPin} />
-                <span className='ml-2'>LOCATION</span>
-                <p>123 Sample Street San Francisco, CA</p>
-              </li> */}
               <li>
                 Copyright{' '}
                 <FontAwesomeIcon icon={faCopyright} />
