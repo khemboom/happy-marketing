@@ -17,6 +17,8 @@ function App() {
   const [ourServicesSectionRef, setOurServicesSectionRef] = useState(null);
   const [aboutUsSectionRef, setAboutUsSectionRef] = useState(null);
 
+  console.log(0.1 + 0.2 == 0.3);
+
   const scrollToSection = (section) => {
     switch (section) {
       case "ourApproachSection":
