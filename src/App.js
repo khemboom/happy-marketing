@@ -49,7 +49,6 @@ function App() {
         <Services sectionRef={setOurServicesSectionRef} />
         <AboutUs sectionRef={setAboutUsSectionRef} />
         <ContactUs />
-        {/* <Pricing /> */}
       </main>
     </>
   );
