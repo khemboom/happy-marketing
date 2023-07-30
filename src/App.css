@@ -161,6 +161,15 @@
   .our-aproach-section .row > .col-md-6:not(:nth-child(2)) {
     margin-top: 20px;
   }
+
+  .aboutUs {
+    padding: 20px 0 40px;
+  }
+
+  .aboutUs-details {
+    width: 100%;
+  }
+
   .contact-us-row {
     display: block !important;
   }
