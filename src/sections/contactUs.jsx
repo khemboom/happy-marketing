@@ -32,7 +32,7 @@ const ContactUs = () => {
                   <Form.Control type="email" name="user_email" placeholder="email@example.com" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                  <Form.Label>Example textarea</Form.Label>
+                  <Form.Label>Message</Form.Label>
                   <Form.Control as="textarea" name="message" placeholder='Message' rows={3} />
                 </Form.Group>
                 <Button variant="primary" type="submit" value="Send">Send</Button>
