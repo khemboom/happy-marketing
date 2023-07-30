@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/happy-marketing/static/css/main.aa7d1758.css",
+    "main.css": "/happy-marketing/static/css/main.2a85af69.css",
     "main.js": "/happy-marketing/static/js/main.e934a215.js",
     "static/js/787.4378f5d0.chunk.js": "/happy-marketing/static/js/787.4378f5d0.chunk.js",
     "static/media/landing.jpg": "/happy-marketing/static/media/landing.e2b039084765cb6800d5.jpg",
@@ -10,12 +10,12 @@
     "static/media/affiliate.jpg": "/happy-marketing/static/media/affiliate.031576b03886d451fea9.jpg",
     "static/media/content.jpg": "/happy-marketing/static/media/content.ea475be18bcfb2a83aae.jpg",
     "index.html": "/happy-marketing/index.html",
-    "main.aa7d1758.css.map": "/happy-marketing/static/css/main.aa7d1758.css.map",
+    "main.2a85af69.css.map": "/happy-marketing/static/css/main.2a85af69.css.map",
     "main.e934a215.js.map": "/happy-marketing/static/js/main.e934a215.js.map",
     "787.4378f5d0.chunk.js.map": "/happy-marketing/static/js/787.4378f5d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa7d1758.css",
+    "static/css/main.2a85af69.css",
     "static/js/main.e934a215.js"
   ]
 }
