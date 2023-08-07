@@ -2,11 +2,11 @@ import React, { useRef, useEffect, useState} from "react";
 import { Carousel } from "react-bootstrap";
 
 // images for slides
-import seo from '../assets/seo.jpg';
-import social from '../assets/social.jpg';
-import content from '../assets/content.jpg';
-import marketing from '../assets/marketing.jpg';
-import affiliate from '../assets/affiliate.jpg';
+import seo from '../assets/images/seo.jpg';
+import social from '../assets/images/social.jpg';
+import content from '../assets/images/content.jpg';
+import marketing from '../assets/images/marketing.jpg';
+import affiliate from '../assets/images/affiliate.jpg';
 
 const Services = ({ sectionRef }) => {
   const ref = useRef(null);
@@ -27,7 +27,7 @@ const Services = ({ sectionRef }) => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 img-service"
               src={seo}
               alt="First slide"
             />
@@ -43,7 +43,7 @@ const Services = ({ sectionRef }) => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 img-service"
               src={social}
               alt="Second slide"
             />
@@ -57,7 +57,7 @@ const Services = ({ sectionRef }) => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 img-service"
               src={content}
               alt="Third slide"
             />
@@ -72,7 +72,7 @@ const Services = ({ sectionRef }) => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 img-service"
               src={marketing}
               alt="Third slide"
             />
@@ -89,7 +89,7 @@ const Services = ({ sectionRef }) => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block w-100 img-service"
               src={affiliate}
               alt="Third slide"
             />
